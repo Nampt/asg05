@@ -16,5 +16,14 @@ public class PeopleTest {
 		System.out.println(newbie);
 		System.out.println(boss);
 		System.out.println(biggerBoss);
+		
+		Person person[] = new Person[3];
+		person[0] = newbie;
+		person[1] = boss;
+		person[2] = biggerBoss;
+		for(int i = 0; i < 3; i++) {
+			System.out.println(person[i]);
+			System.out.println(" ");
+		}
 	}
 }
